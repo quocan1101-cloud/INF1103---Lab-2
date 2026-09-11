@@ -13,6 +13,9 @@ while True:
 
     if val < 0:
         print("Please enter a positive number.")
+    elif inventory + val > 500:
+        print("Overstock Alert! Inventory would exceed 500 units.")
+        break
     else:
         inventory += val
 
