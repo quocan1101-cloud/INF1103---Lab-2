@@ -10,5 +10,8 @@ while True:
     except ValueError:
         print("Please enter a valid number or 'quit' to exit.")
         continue
-    
+
+    if val < 0:
+        print("Please enter a positive number.")
+
 print(f"Total inventory: {inventory}")
