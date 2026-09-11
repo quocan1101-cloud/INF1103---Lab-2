@@ -13,5 +13,7 @@ while True:
 
     if val < 0:
         print("Please enter a positive number.")
+    else:
+        inventory += val
 
 print(f"Total inventory: {inventory}")
